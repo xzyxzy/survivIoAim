@@ -90,7 +90,6 @@ var iterate = function() {
 var timer = {};
 function ticker() {
 	iterate();
-	console.log("Iterate");
 	timer = setTimeout(ticker, 30);
 }
 
