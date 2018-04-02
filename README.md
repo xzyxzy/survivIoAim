@@ -9,7 +9,7 @@
 8. Ok, start new solo game. Come back to the code, on the right side you must see "Paused on breakpoint". Below in the scope tab find variable "this". Click it right mouse key, and choose "Store as global variable" in context menu.
 9. In the console of the the bottom you must see `temp1`.
 10. Deactivate breakpoints and resume script execution (press ctrl + f8 and after press f8).
-11. Write in the console `var game = temp1`. Then paste [this](http://github.com) code.
+11. Write in the console `var game = temp1`. Then paste [this](https://raw.githubusercontent.com/w3x731/survivIoAim/master/survivIoAim.js) code.
 12. In the console you may type `reload()` for launch aim and `stop()` for stops the aim.
 
 Its must be worked. How to check script? Your person must automatically rotate to the closest enemy.
